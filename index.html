@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishesh Vijay - Portfolio</title>
+    <meta name="description" content="Portfolio of Vishesh Vijay, a Full Stack Web Developer (MERN) and IT Student.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="logo">Vishesh<span class="highlight">Vijay</span> <i class="fas fa-code" style="font-size: 0.8em; margin-left: 5px;"></i></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content fade-up">
+                <p class="subtitle">Hello, I'm</p>
+                <h1 class="title">Vishesh <span class="highlight">Vijay</span></h1>
+                <h2 class="role"><strong>Full Stack Web Developer (MERN)</strong> | IT Student</h2>
+                <div class="code-box fade-up" style="transition-delay: 0.1s;">
+                    <span class="code-keyword">const</span> <span class="code-variable">developer</span> <span class="code-operator">=</span> {
+                        <br>&nbsp;&nbsp;<span class="code-property">name</span>: <span class="code-string">"Vishesh Vijay"</span>,
+                        <br>&nbsp;&nbsp;<span class="code-property">skills</span>: [<span class="code-string">"#MERN"</span>, <span class="code-string">"#React"</span>, <span class="code-string">"#Node"</span>, <span class="code-string">"#MongoDB"</span>]
+                    <br>};
+                </div>
+                <div class="cta-buttons" style="margin-top: 2rem;">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="image-wrapper">
+                    <div class="abstract-shape"></div>
+                    <img src="profile.jpg" alt="Vishesh Vijay" class="profile-img">
+                    
+                    <!-- Floating Skill Badges -->
+                    <div class="floating-badge badge-1">React.js</div>
+                    <div class="floating-badge badge-2">Node.js</div>
+                    <div class="floating-badge badge-3">MongoDB</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title fade-up">About <span class="highlight">Me</span></h2>
+            <div class="about-container">
+                <div class="about-card glass-card fade-up">
+                    <i class="fas fa-graduation-cap about-icon"></i>
+                    <h3>IT Graduate</h3>
+                    <p>Motivated student with strong foundations in Data Structures & DBMS.</p>
+                </div>
+                <div class="about-card glass-card fade-up" style="transition-delay: 0.1s;">
+                    <i class="fas fa-code-branch about-icon"></i>
+                    <h3>Developer</h3>
+                    <p>Experienced in writing clean code and developing full-stack academic projects.</p>
+                </div>
+                <div class="about-card glass-card fade-up" style="transition-delay: 0.2s;">
+                    <i class="fas fa-lightbulb about-icon"></i>
+                    <h3>Innovator</h3>
+                    <p>Passionate about learning the latest technologies and building scalable solutions.</p>
+                </div>
+            </div>
+            <div class="about-text glass-card fade-up" style="transition-delay: 0.3s; margin-top: 2rem;">
+                <p>Hello! I'm Vishesh, an aspiring software developer with a strong passion for web technologies and problem-solving. My journey in tech started with a profound interest in how things work behind the scenes, leading me down the exciting path of Full Stack Development. I thrive in dynamic environments where I can constantly learn and apply modern tools to craft impactful digital experiences.</p>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title fade-up">My <span class="highlight">Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item glass-card fade-up">
+                    <div class="timeline-date">2024 - 2028</div>
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">B.Tech in Information Technology</h3>
+                        <span class="timeline-grade">YGPA: 9.07</span>
+                    </div>
+                    <p class="timeline-subtitle"><i class="fas fa-university"></i> HALDIA INSTITUTE OF TECHNOLOGY</p>
+                </div>
+                
+                <div class="timeline-item glass-card fade-up" style="transition-delay: 0.1s;">
+                    <div class="timeline-date">Class 12th</div>
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">Senior Secondary (CBSE)</h3>
+                        <span class="timeline-grade">Score: 91%</span>
+                    </div>
+                    <p class="timeline-subtitle"><i class="fas fa-school"></i> D.A.V PUBLIC SCHOOL, ECL PANDAVESWAR</p>
+                </div>
+
+                <div class="timeline-item glass-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="timeline-date">Class 10th</div>
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">Secondary Education (CBSE)</h3>
+                        <span class="timeline-grade">Score: 85%</span>
+                    </div>
+                    <p class="timeline-subtitle"><i class="fas fa-school"></i> D.A.V PUBLIC SCHOOL, ECL PANDAVESWAR</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section tech-section">
+            <div class="tech-arsenal-header fade-up">
+                <div class="diagnostic-text"><i class="fas fa-microchip"></i> SYSTEM DIAGNOSTICS <i class="fas fa-microchip"></i></div>
+                <h2 class="section-title">MY <span class="tech-highlight">SKILLS</span></h2>
+                <div class="tech-divider"></div>
+            </div>
+            
+            <div class="tech-grid fade-up">
+                <!-- WEB CORE -->
+                <div class="tech-card">
+                    <div class="tech-card-header">
+                        <div class="tech-title"><i class="fas fa-code"></i> WEB CORE</div>
+                        <i class="fas fa-wave-square tech-pulse" style="color: #61dafb;"></i>
+                    </div>
+                    <div class="tech-card-body">
+                        <div class="tech-item">
+                            <div class="tech-name">HTML / CSS</div>
+                            <div class="progress-bar cyan" style="--target-width: 90%;"><div class="progress-fill"></div></div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">JavaScript</div>
+                            <div class="progress-bar cyan" style="--target-width: 85%;"><div class="progress-fill"></div></div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">React</div>
+                            <div class="progress-bar cyan" style="--target-width: 80%;"><div class="progress-fill"></div></div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">Express.js</div>
+                            <div class="progress-bar cyan" style="--target-width: 75%;"><div class="progress-fill"></div></div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">Node.js</div>
+                            <div class="progress-bar cyan" style="--target-width: 80%;"><div class="progress-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LANGUAGES -->
+                <div class="tech-card">
+                    <div class="tech-card-header">
+                        <div class="tech-title"><i class="fas fa-terminal"></i> LANGUAGES</div>
+                        <i class="fas fa-wave-square tech-pulse" style="color: #4ade80;"></i>
+                    </div>
+                    <div class="tech-card-body">
+                        <div class="tech-item">
+                            <div class="tech-name">C</div>
+                            <div class="progress-bar cyan" style="--target-width: 70%;"><div class="progress-fill"></div></div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">Java</div>
+                            <div class="progress-bar cyan" style="--target-width: 85%;"><div class="progress-fill"></div></div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">Python</div>
+                            <div class="progress-bar cyan" style="--target-width: 80%;"><div class="progress-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DATA SYSTEMS -->
+                <div class="tech-card">
+                    <div class="tech-card-header">
+                        <div class="tech-title"><i class="fas fa-database"></i> DATA SYSTEMS</div>
+                        <i class="fas fa-wave-square tech-pulse" style="color: #a78bfa;"></i>
+                    </div>
+                    <div class="tech-card-body">
+                        <div class="tech-item">
+                            <div class="tech-name">MongoDB</div>
+                            <div class="progress-bar purple" style="--target-width: 85%;"><div class="progress-fill"></div></div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">MySQL</div>
+                            <div class="progress-bar purple" style="--target-width: 75%;"><div class="progress-fill"></div></div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">Supabase</div>
+                            <div class="progress-bar purple" style="--target-width: 70%;"><div class="progress-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DATA SCIENCE & ML -->
+                <div class="tech-card">
+                    <div class="tech-card-header">
+                        <div class="tech-title"><i class="fas fa-brain"></i> DATA SCIENCE</div>
+                        <i class="fas fa-wave-square tech-pulse" style="color: #fb923c;"></i>
+                    </div>
+                    <div class="tech-card-body">
+                        <div class="tech-item">
+                            <div class="tech-name">Numpy, Pandas</div>
+                            <div class="progress-bar orange" style="--target-width: 80%;"><div class="progress-fill"></div></div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">Supervised Learning</div>
+                            <div class="progress-bar orange" style="--target-width: 75%;"><div class="progress-fill"></div></div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">Unsupervised Learning</div>
+                            <div class="progress-bar orange" style="--target-width: 65%;"><div class="progress-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title fade-up">Featured <span class="highlight">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card fade-up">
+                    <div class="project-image">
+                        <i class="fas fa-map-marked-alt project-icon"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-overlay-link"><i class="fas fa-eye"></i> View Live</a>
+                            <a href="#" class="project-overlay-link"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Wanderlust</h3>
+                        <p class="project-subtitle">An Airbnb Inspired Platform</p>
+                        <p class="project-desc">A full-stack web application inspired by Airbnb that allows users to explore, list, and book rental properties. Features include property listings with images, location details, pricing, user authentication, and booking functionality.</p>
+                        <div class="tech-stack">
+                            <span>#HTML</span><span>#CSS</span><span>#JS</span><span>#Node.js</span><span>#Express.js</span><span>#MongoDB</span><span>#RESTAPIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code project-icon"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-overlay-link"><i class="fas fa-eye"></i> View Live</a>
+                            <a href="#" class="project-overlay-link"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio</h3>
+                        <p class="project-subtitle">Interactive Web Portfolio</p>
+                        <p class="project-desc">Designed and developed a responsive personal portfolio website to showcase academic background, technical skills, projects, and contact information. Serves as a digital resume with a clean layout, intuitive navigation, and responsive design.</p>
+                        <div class="tech-stack">
+                            <span>#HTML</span><span>#CSS</span><span>#JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title fade-up">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-grid">
+                <a href="tel:+917001101737" class="contact-card glass-card fade-up">
+                    <div class="contact-icon-wrapper">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="icon-pulse"></div>
+                    </div>
+                    <h4>Phone</h4>
+                    <p>+91 7001101737</p>
+                </a>
+                
+                <a href="mailto:visheshvijay3005@gmail.com" class="contact-card glass-card fade-up" style="transition-delay: 0.1s;">
+                    <div class="contact-icon-wrapper">
+                        <i class="fas fa-envelope"></i>
+                        <div class="icon-pulse"></div>
+                    </div>
+                    <h4>Email</h4>
+                    <p>visheshvijay3005@gmail.com</p>
+                </a>
+
+                <div class="contact-card glass-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="contact-icon-wrapper">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="icon-pulse"></div>
+                    </div>
+                    <h4>Location</h4>
+                    <p>Durgapur, West Bengal</p>
+                </div>
+            </div>
+
+            <div class="contact-form-container glass-card fade-up" style="transition-delay: 0.3s; margin-top: 4rem; max-width: 800px; margin-left: auto; margin-right: auto; padding: 3rem;">
+                <h3 class="form-title" style="text-align: center; font-size: 2rem; margin-bottom: 2.5rem; border-bottom: none;">Send me a Message</h3>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Name" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+                        <i class="fas fa-comment-alt" style="top: 1.3rem;"></i>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn" style="width: 100%; justify-content: center;">
+                        <i class="fas fa-paper-plane"></i> <span id="submit-btn-text">Send Message</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vishesh Vijay. All rights reserved.</p>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
